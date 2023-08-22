@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #d5c4a1;
+  background-color: #ebdbb2;
   color: #282828;
   display: grid;
   grid-template-columns: 0.9fr 4fr;
@@ -51,10 +51,30 @@ li {
 
 header {
   padding: 20px;
-  display: grid;
-  padding-top: 20px;
-  background-color: #ebdbb2;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fbf1c7;
   box-shadow: 5px 0px 5px #bdae93;
+}
+
+.upper,
+.lower {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search {
+  display: flex;
+}
+
+#bar {
+  height: 1.5rem;
+  width: 50rem;
+  border-radius: 50px;
+  border: 0;
+  background-color: #ebdbb2;
 }
 
 main {
