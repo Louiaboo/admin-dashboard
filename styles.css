@@ -172,14 +172,16 @@ main {
   width: 1.3rem;
 }
 
-.announcements {
+.announcements,
+.trending {
   font-size: 1.5rem;
   font-weight: bold;
   grid-column-start: 4;
   padding-right: 40px;
 }
 
-.announcements > .container {
+.announcements > .container,
+.trending > .container {
   padding: 15px 35px;
   background-color: #fbf1c7;
   border-radius: 10px;
@@ -215,6 +217,9 @@ main {
 .trends {
   font-size: 1rem;
   font-weight: normal;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
 }
 
 .trends > .name > .user {
