@@ -109,8 +109,26 @@ button {
   border: 0;
   width: 25%;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 16px;
   font-weight: bold;
+  cursor: pointer;
+  position: relative;
+}
+
+button:after {
+  position: absolute;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background: #98971a;
+}
+
+button:active {
+  background: #98971a;
+  top: 2px;
 }
 
 main {
