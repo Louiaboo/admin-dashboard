@@ -148,6 +148,13 @@ main {
   grid-row: span 3;
 }
 
+.projects > .title,
+.announcements > .title,
+.trending > .title,
+.card > .project {
+  margin-bottom: 0;
+}
+
 .cards {
   font-size: 1rem;
   font-weight: normal;
