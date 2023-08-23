@@ -65,6 +65,24 @@ header {
   justify-content: space-between;
 }
 
+.upper > .profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-right: 70px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.name > .greet {
+  font-weight: bold;
+}
+
+.greeting > .name > .user {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 .search {
   display: flex;
 }
@@ -75,6 +93,24 @@ header {
   border-radius: 50px;
   border: 0;
   background-color: #ebdbb2;
+}
+
+.lower > .actions {
+  width: 28%;
+  padding-right: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  margin-left: 20px;
+  background-color: #b8bb26;
+  border: 0;
+  width: 25%;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
 }
 
 main {
@@ -115,7 +151,7 @@ main {
   font-size: 1.5rem;
   font-weight: bold;
   grid-column-start: 4;
-  padding-right: 30px;
+  padding-right: 40px;
 }
 
 .notifications {
