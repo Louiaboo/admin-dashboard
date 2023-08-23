@@ -152,7 +152,7 @@ main {
 .announcements > .title,
 .trending > .title,
 .card > .project {
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .cards {
@@ -179,6 +179,17 @@ main {
   padding-right: 40px;
 }
 
+.announcements > .container {
+  padding: 15px 35px;
+  background-color: #fbf1c7;
+  border-radius: 10px;
+}
+
+.announcements > .container > .notifications:nth-child(2) {
+  border-top: 1px solid #928374;
+  border-bottom: 1px solid #928374;
+}
+
 .notifications {
   font-size: 0.8rem;
   font-weight: normal;
@@ -187,6 +198,13 @@ main {
 .notifications > .title {
   font-size: 1rem;
   font-weight: bold;
+  margin: 0;
+  margin-top: 15px;
+}
+
+.notifications > .description {
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
 
 .trending {
