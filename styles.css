@@ -141,6 +141,7 @@ main {
 }
 
 .projects {
+  margin-left: 30px;
   font-size: 1.5rem;
   font-weight: bold;
   margin-right: 50px;
@@ -159,13 +160,32 @@ main {
   font-size: 1rem;
   font-weight: normal;
   display: grid;
-  gap: 50px;
+  gap: 30px;
   grid-template-columns: repeat(3, 1fr);
 }
 
-.card > .project {
+.card {
+  padding: 10px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fbf1c7;
+  border-radius: 16px;
+  box-shadow: 1px 1px 8px #bdae93;
+}
+
+.card > .container {
+  margin: 0;
+}
+
+.card > .container > .project {
   font-size: 1.2rem;
   font-weight: bold;
+}
+
+.card > .card-actions {
+  margin: 0;
+  align-self: flex-end;
 }
 
 .card-actions > .icon {
@@ -185,6 +205,7 @@ main {
   padding: 15px 35px;
   background-color: #fbf1c7;
   border-radius: 10px;
+  box-shadow: 1px 1px 8px #bdae93;
 }
 
 .announcements > .container > .notifications:nth-child(2) {
