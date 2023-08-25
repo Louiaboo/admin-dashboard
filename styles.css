@@ -78,6 +78,23 @@ header {
   font-weight: bold;
 }
 
+.lower {
+  margin-top: 20px;
+}
+
+.picture {
+  border-radius: 50%;
+}
+
+.lower > .greeting {
+  display: flex;
+  width: 25rem;
+}
+
+.greeting > .picture {
+  width: 3.8rem;
+}
+
 .greeting > .name > .user {
   font-size: 2rem;
   font-weight: bold;
@@ -235,12 +252,20 @@ main {
   font-weight: bold;
 }
 
+.trending > .container {
+  padding: 7px 30px;
+}
+
 .trends {
   font-size: 1rem;
   font-weight: normal;
   display: flex;
   align-items: center;
-  margin: 20px 0;
+  margin: 15px 0;
+}
+
+.trends > .picture {
+  width: 3rem;
 }
 
 .trends > .name > .user {
@@ -248,5 +273,5 @@ main {
 }
 
 .trends > .name > .title {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
